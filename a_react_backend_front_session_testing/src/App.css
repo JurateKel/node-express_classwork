@@ -1,0 +1,64 @@
+.cards-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.user-card {
+  width: 23%;
+  margin: 1%;
+  background-color: #f1f1f1;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.registration-block {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+.user-card img {
+  width: 100%;
+}
+button {
+  background-color: rgb(44, 103, 252);
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  color: white;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+.buttons-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.movie-page {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.movie-page > * {
+  padding: 20px;
+  box-sizing: border-box;
+}
+.movie-data {
+  display: flex;
+  flex-direction: column;
+}
+.profile-wrapper {
+  display: flex;
+}
+.review-wrapper {
+  margin: 1%;
+  display: flex;
+}
+.review {
+  margin: 20px;
+  background-color: #f1f1f1;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.reviews-wrapper {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 500px;
+}
